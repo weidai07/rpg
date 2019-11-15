@@ -21,5 +21,5 @@ $(document).ready(function() {
     $("h1#text-display").append("Hello, folks. Looks like our webpack is working!");
     $("div#hidden-div").show();
   }
-
+  
 });

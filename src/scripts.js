@@ -1,12 +1,11 @@
-//import $ from 'jquery';
+import $ from 'jquery';
 
 // Business Logic
 
-
 export class Character {
-  constructor(name){
-    this.name = name;
-    this.powerLevel = 10;
+  constructor(name, age){
+    this._name = name;
+    this._powerLevel = 10;
   }
   takePower() {
     this.powerLevel -= 2;
